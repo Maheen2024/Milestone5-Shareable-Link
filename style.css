@@ -1,0 +1,177 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(208, 194, 210);
+}
+
+h1{
+    text-align: center;
+    color: #2c3e50;
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(174, 151, 174);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+fieldset{
+    border: 2px solid #43035b;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #c3aeca;
+}
+
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: #2c3e50;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    color: #2c3e50;
+}
+
+input,textarea{
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(92, 4, 92);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #8b6c98;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+button:hover{
+    background-color: #623d6f;
+}
+
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(92, 4, 92);
+    border-radius: 8px;
+    background-color: #c3aeca;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.5);
+}  
+
+#resumeOutput h2{
+    color: #2c3e50;
+}
+
+.profilePicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid rgb(92, 4, 92);
+    box-shadow: 0 4px 8px rgba(60, 7, 98, 0.5);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+/* General resume layout */
+/* body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+} */
+
+/* Resume container */
+.resume-section {
+    margin-bottom: 20px;
+}
+
+.resume-header {
+    font-size: 24px;
+    text-align: center;
+    color: #2C3E50;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.personal-info {
+    margin-top: 20px;
+}
+
+/* Profile picture styling */
+.profile-picture {
+    display: block;
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+/* Section headers */
+.section-header {
+    font-size: 18px;
+    color: #34495E;
+    text-transform: uppercase;
+    border-bottom: 2px solid #2980B9;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Resume content */
+.resume-content {
+    font-size: 16px;
+    color: #2C3E50;
+    margin-bottom: 15px;
+}
+
+/* Resume divider */
+.resume-divider {
+    border: 1px solid #BDC3C7;
+    margin: 20px 0;
+}
+
+/* Special styling for personal information */
+.resume-name, .resume-email, .resume-phone {
+    font-weight: bold;
+    color: #2C3E50;
+}
+
+/* Media query for better readability on small screens */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .resume-header {
+        font-size: 22px;
+    }
+
+    .profile-picture {
+        max-width: 100px;
+    }
+
+    .section-header {
+        font-size: 16px;
+    }
+
+    .resume-content {
+        font-size: 14px;
+    }
+}
